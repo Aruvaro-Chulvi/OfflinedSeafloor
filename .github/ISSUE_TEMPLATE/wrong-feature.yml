@@ -1,0 +1,60 @@
+name: "🌊 Wrong undersea feature / Relieve submarino erróneo"
+description: "A feature has a wrong name, translation, Wikipedia link, depth or position. / Un relieve tiene mal el nombre, la traducción, el enlace a Wikipedia, la profundidad o la posición."
+title: "[Feature] "
+labels: ["wrong feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping to improve Offlined Seafloor! One feature per report, please.
+        ¡Gracias por ayudar a mejorar Offlined Seafloor! Un relieve por aviso, por favor.
+  - type: input
+    id: feature
+    attributes:
+      label: "Feature / Relieve"
+      description: "Name as shown in Offlined, or its official English name. / Nombre tal como sale en Offlined, o su nombre oficial en inglés."
+      placeholder: "Mariana Trench / Fosa de las Marianas"
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: "Language / Idioma"
+      options:
+        - English (en)
+        - Español (es)
+        - Français (fr)
+        - Português (pt)
+        - Italiano (it)
+        - Deutsch (de)
+        - Русский (ru)
+        - 中文 (zh)
+        - हिन्दी (hi)
+        - العربية (ar)
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: "Problem / Problema"
+      options:
+        - "Wrong name or translation / Nombre o traducción incorrectos"
+        - "Opens the wrong Wikipedia article / Abre un artículo de Wikipedia equivocado"
+        - "Has no Wikipedia link, but the article exists / No tiene enlace, pero el artículo existe"
+        - "Wrong depth / Profundidad incorrecta"
+        - "Wrong position on the map / Posición incorrecta en el mapa"
+        - "Wrong type (seamount, trench…) / Tipo incorrecto (monte submarino, fosa…)"
+        - "Other / Otro"
+    validations:
+      required: true
+  - type: input
+    id: correct
+    attributes:
+      label: "Correct value / Valor correcto"
+      description: "The right name, Wikipedia link or depth, if you know it (with a source, if possible). / El nombre, enlace o profundidad correctos, si los sabes (con una fuente, si puede ser)."
+      placeholder: "https://es.wikipedia.org/wiki/Fosa_de_las_Marianas"
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Notes / Notas"
+      description: "Anything else that helps. / Cualquier otra cosa que ayude."

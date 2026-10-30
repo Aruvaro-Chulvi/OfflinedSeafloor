@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "Offlined"
+    url: "https://www.offlined.org"
+    about: "Offlined Seafloor is part of the Offlined project. / Offlined Seafloor es parte del proyecto Offlined."
+  - name: "GEBCO — report a problem in the grid itself / avisar de un error de la propia cuadrícula"
+    url: "https://www.gebco.net"
+    about: "Depths come from the GEBCO Grid: errors in the original data are fixed by GEBCO. / Las profundidades salen de GEBCO: los errores de los datos originales los corrige GEBCO."

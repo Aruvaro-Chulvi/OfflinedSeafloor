@@ -1,0 +1,35 @@
+name: "⬇️ Download problem / Problema de descarga"
+description: "A seafloor package does not download, stops or says it is damaged. / Un paquete del fondo marino no se descarga, se corta o dice que está dañado."
+title: "[Download] "
+labels: ["download"]
+body:
+  - type: dropdown
+    id: pack
+    attributes:
+      label: "Package / Paquete"
+      options:
+        - "Standard / Estándar (z0–6)"
+        - "Detailed / Detalle (z0–7)"
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: "Where / Dónde"
+      options:
+        - "From Offlined (Seas & Oceans) / Desde Offlined (Mares y Océanos)"
+        - "By hand from the release page / A mano desde la página de la release"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: "Offlined version / Versión de Offlined"
+      placeholder: "2.0.2"
+  - type: textarea
+    id: what
+    attributes:
+      label: "What happens / Qué pasa"
+      description: "The message you see and how far it got (%). / El mensaje que sale y hasta dónde llegó (%)."
+    validations:
+      required: true
