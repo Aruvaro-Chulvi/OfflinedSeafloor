@@ -26,7 +26,7 @@ internet. It publishes two things:
 | Package | Zoom | Resolution at the equator | Size |
 |---|---|---|---:|
 | Standard | 0–6 | ~2.4 km per pixel | 668 MB |
-| Detailed | 0–7 | ~1.2 km per pixel | see the release |
+| Detailed | 0–7 | ~1.2 km per pixel | 2.1 GB (2 parts) |
 
 > ⚠️ **Not for navigation.** GEBCO data must not be used for navigation or for any purpose involving
 > safety at sea.
@@ -85,7 +85,7 @@ Publica dos cosas:
 | Paquete | Zoom | Resolución en el ecuador | Tamaño |
 |---|---|---|---:|
 | Estándar | 0–6 | ~2,4 km por píxel | 668 MB |
-| Detalle | 0–7 | ~1,2 km por píxel | ver la release |
+| Detalle | 0–7 | ~1,2 km por píxel | 2,1 GB (2 trozos) |
 
 > ⚠️ **No apto para navegar.** Los datos de GEBCO no deben usarse para la navegación ni para nada que
 > tenga que ver con la seguridad en el mar.

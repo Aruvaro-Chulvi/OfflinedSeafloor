@@ -1,0 +1,41 @@
+{
+  "name": "Offlined Seafloor",
+  "version": "gebco-2026",
+  "base_url": "https://github.com/Aruvaro-Chulvi/OfflinedSeafloor/releases/download/gebco-2026/",
+  "attribution": "GEBCO Compilation Group (2026) GEBCO 2026 Grid",
+  "packs": [
+    {
+      "id": "std",
+      "maxzoom": 6,
+      "file": "seafloor-gebco2026-z6.pmtiles",
+      "size": 700646433,
+      "md5": "9daeceb57e52844e3fca043270f57362",
+      "parts": [
+        {
+          "name": "seafloor-gebco2026-z6.pmtiles",
+          "size": 700646433,
+          "md5": "9daeceb57e52844e3fca043270f57362"
+        }
+      ]
+    },
+    {
+      "id": "hd",
+      "maxzoom": 7,
+      "file": "seafloor-gebco2026-z7.pmtiles",
+      "size": 2112640856,
+      "md5": "09a5838069c60f78731d827f4396626a",
+      "parts": [
+        {
+          "name": "seafloor-gebco2026-z7.pmtiles.part1",
+          "size": 1900000000,
+          "md5": "1c5fac37da664ac603989f7e63ef21c2"
+        },
+        {
+          "name": "seafloor-gebco2026-z7.pmtiles.part2",
+          "size": 212640856,
+          "md5": "29b98ac1be0a236e483530d3cc39b9ab"
+        }
+      ]
+    }
+  ]
+}
