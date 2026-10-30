@@ -1,0 +1,6 @@
+scripts/work/
+__pycache__/
+*.pmtiles
+*.part*
+*.tif
+*.i16

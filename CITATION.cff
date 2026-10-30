@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use Offlined Seafloor, please credit it as below, together with GEBCO."
+type: dataset
+title: "Offlined Seafloor"
+abstract: >-
+  The relief of the ocean floor offline: the GEBCO 2026 Grid as Terrarium raster-dem PMTiles, and the
+  5,311 named undersea features of the IHO-IOC GEBCO Gazetteer with their depths and, from Wikidata,
+  names and Wikipedia articles in 10 languages. A project of Offlined. Not for navigation.
+authors:
+  - given-names: "Álvaro"
+    family-names: "C. Chulvi"
+    affiliation: "Offlined"
+    website: "https://www.offlined.org"
+repository-code: "https://github.com/Aruvaro-Chulvi/OfflinedSeafloor"
+url: "https://www.offlined.org"
+license: CC-BY-NC-SA-4.0
+version: "gebco-2026"
+date-released: "2026-10-30"
+keywords:
+  - bathymetry
+  - GEBCO
+  - seafloor
+  - PMTiles
+  - undersea features
+  - Offlined
+references:
+  - type: dataset
+    title: "GEBCO 2026 Grid"
+    authors:
+      - name: "GEBCO Compilation Group"
+    year: 2026
+    url: "https://www.gebco.net"
+  - type: dataset
+    title: "IHO-IOC GEBCO Gazetteer of Undersea Feature Names"
+    authors:
+      - name: "GEBCO Sub-Committee on Undersea Feature Names (SCUFN)"
+    url: "https://www.gebco.net/data-products/undersea-feature-names"

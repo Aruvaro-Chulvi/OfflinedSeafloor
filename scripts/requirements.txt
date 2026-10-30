@@ -1,0 +1,6 @@
+rasterio
+numpy
+pillow
+pmtiles
+shapely
+requests
