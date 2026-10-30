@@ -1,5 +1,7 @@
 # 🌊 Offlined Seafloor
 
+![Offlined Seafloor — the ocean floor, offline: the western Pacific and the Challenger Deep](.github/social-preview.png)
+
 **The relief of the ocean floor, offline.**
 By **Álvaro C. Chulvi** · a project of **[Offlined](https://www.offlined.org)**
 
