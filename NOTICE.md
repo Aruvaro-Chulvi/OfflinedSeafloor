@@ -15,6 +15,9 @@ You may use, copy, modify and share Offlined Seafloor **for non-commercial purpo
 author and the sources below. Commercial use is reserved to the author: if you want to use it
 commercially, get in touch through [offlined.org](https://www.offlined.org).
 
+**Offlined** (the application by Álvaro C. Chulvi and Eric Uguet, https://www.offlined.org) is authorized by
+the author to use, include and distribute Offlined Seafloor, also for commercial purposes.
+
 The underlying GEBCO Grid is in the **public domain** and the Marine Regions datasets are **CC BY 4.0**:
 this license covers this project's own work, not their data, which you can always get directly from
 [gebco.net](https://www.gebco.net) and [marineregions.org](https://www.marineregions.org) under their own terms.
