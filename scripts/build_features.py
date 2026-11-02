@@ -14,7 +14,7 @@ from shapely import contains_xy
 
 WORK = Path(os.environ.get("SEAFLOOR_WORK") or (Path(__file__).parent / "work"))
 HERE = WORK
-Z7 = WORK / "z7.i16"
+Z7 = Path(os.environ.get("SEAFLOOR_Z7") or (WORK / "z7.i16"))
 OUT = Path(__file__).resolve().parents[1] / "data" / "seafloor_features.json"   # copiar a Offlined: frontend/geo/
 N = 512 << 7
 
@@ -111,8 +111,11 @@ def main():
         if w and (w.get("l") or w.get("w")):
             l = {k: (v[:1].upper() + v[1:]) for k, v in (w.get("l") or {}).items() if v}
             wdout[str(fid)] = {"l": l, "w": w.get("w") or {}}
+    # Artículo que explica cada tipo (type_articles.py), por clave de la app
+    tw_path = HERE / "type_wd.json"
+    tw = json.loads(tw_path.read_text(encoding="utf-8")) if tw_path.exists() else {}
     out = {"v": 1, "src": "IHO-IOC GEBCO Gazetteer of Undersea Feature Names, www.gebco.net; depths: GEBCO 2026 Grid; names/articles: Wikidata (CC0)",
-           "types": types, "f": rows, "wd": wdout}
+           "types": types, "f": rows, "wd": wdout, "tw": tw}
     OUT.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(len(rows), "features", len(types), "types", OUT.stat().st_size // 1024, "KB")
     print(types)
